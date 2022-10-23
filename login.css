@@ -4,14 +4,83 @@
     box-sizing: border-box;
 }
 
+/* Comment the below in */
+
 body { 
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-content: center;
     width: 100vw;
     height: 100vh;
-    align-items: center
+    align-items: center */
 }
+
+/* The first heading */
+
+.head1 {
+    background-color: grey;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    border-bottom: white 2px;
+}
+
+.head1 div {
+    color: white;
+}
+
+.head1 div a {
+    color: white;
+}
+
+.head1 div a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.head1 div:nth-child(1){
+    grid-column: 6;
+    justify-self: center;
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.head1 div:nth-child(2){
+    grid-column: 10;
+    justify-self: center;
+    align-self: center;
+}
+
+.head1 div:nth-child(3){
+    grid-column: 11;
+    justify-self: center;
+    align-self: center;
+}
+
+/* The second Heading */
+
+.navbar {
+    display: grid;
+    background-color: #bab8b8;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 11px 0;
+}
+
+.navbar div {
+    justify-self: center;
+    align-self: center;
+}
+
+.navbar div a{
+    color: white;
+}
+
+.navbar div a:hover {
+    text-decoration: underline;
+}
+
+/* Main Wrapepr */
 
 .m-wrapper {
     background-color: grey;
@@ -51,4 +120,67 @@ a {
     display: block;
     padding: 20px 0;
     color: white;
+}
+
+/* Footer */
+/* Compare the footer to the footer in the main webpage (index.html) It looks differnet. Its most likely modified by the css from the login from */
+
+.footer {
+    background-color: grey;
+
+
+}
+
+.footer-container {
+    width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 24px;
+    
+}
+
+.footer-section {
+    justify-self: center;
+}
+
+.footer-section h1 {
+    Color: white;
+    font-size: 25px;
+    padding: 10px 0;
+    font-weight: bold;
+    
+}
+
+.footer-section ul{
+    list-style: none;
+
+}
+
+.footer-section ul li{
+    padding: 4px 0;
+    
+}
+
+.footer-section ul li a{
+   color: white;
+   
+}
+
+.footer-section ul li a:hover{
+   text-decoration: underline;
+}
+
+/* Copyright */
+
+.foot-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-copyright h1 {
+    color: white;
+    font-weight: lighter;
+    padding: 5px 0;
+    
 }
