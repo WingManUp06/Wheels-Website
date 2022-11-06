@@ -70,6 +70,7 @@ body {
     background-color: #bab8b8;
     grid-template-columns: repeat(6, 1fr);
     padding: 11px 0;
+
 }
 
 .navbar div {
@@ -88,10 +89,15 @@ body {
 /* CSS FOR THE CONTENT OF THE PAGE */
 
 .m-wrapper {
-    background-color: lightblue;
+    background-color: grey;
     width: 70%;
-    height: 700px;
-    margin: 0 auto;
+    padding: 30px;
+    margin: 30px auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #bab8b8;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px black;
 }
 
 .m-wrapper form div {
@@ -101,17 +107,28 @@ body {
 
 }
 
-.m-wrapper form div h2{
+.m-wrapper h1{
+    font-size: 26px;
+    color: #cecece;
+}
+.m-wrapper form h2{
     font-size: 20px;
+    color: #cecece;
 }
 
+.button-link {
+    color: #333;
+}
 
+.main-page-link {
+    text-decoration: underline;
+    color: white;
+}
 
+/* FOOTER */
 
 .footer {
     background-color: grey;
-
-
 }
 
 .footer-container {

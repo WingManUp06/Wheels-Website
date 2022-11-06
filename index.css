@@ -70,6 +70,9 @@ body {
     background-color: #bab8b8;
     grid-template-columns: repeat(6, 1fr);
     padding: 11px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .navbar div {

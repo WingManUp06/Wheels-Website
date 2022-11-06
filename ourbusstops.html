@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wheels | Book A Trip</title>
-    <link rel="stylesheet" href="bat.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="images\busicon.png">
+    <title>Wheels | Our Bus Stops</title>
+    <link rel="stylesheet" href="ourbusstops.css">
 </head>
 <body>
+    <!-- HEADING -->
     <div class="head1">
         <div>WHEELS</div>
         <div><a href="login.html">Log in</a></div>
@@ -26,46 +23,43 @@
         <div><a href="#">Help And Info</a></div>
         <div><a href="deals.html">Deals</a></div>
     </div>
-    <!--  ACTUAL CONTENT  -->
-    <div class="m-wrapper">
-        <h1>Book a Trip</h1>
-        <form action="results.html" method="GET">
-            <div>
-                <h2>Where would you like to start from?</h2>
-                <input type="text" name="origin" id="origin" placeholder="From:" required>
-            </div>
-                
-            <div>
-                <h2>Where would you like to end from?</h2>
-                <input type="text" name="destination" id="destination" placeholder="To:" required>
-            </div>
-            <div>
-                <h2>When would you like to leave?</h2>
-                <input type="date" name="startDate" id="startDate" required>
-            </div>
-            <h2>If you would like a round trip fill out the below. If not, ignore it and click submuit</h2>
-            <div>
-                <h2>When would you like to return?</h2>
-                <input type="date" name="startDate" id="startDate">
-            </div>
-            <div>
-                <h2>How many people will be on the trip?</h2>
-                <input type="number" name="passengerNum" id="passengerNum" min="1">
-            </div>
-            <div>
-                <h2>Promotion Codes</h2>
-                <input type="text">
-            </div>
-            
-            
-            <!-- THE LINK BUTTON IS TEMPORARY -->
-            <button type="submit" id="submit">
-                <a href="results.html" class="button-link">Submit</a>
-            </button>
-            <a href="index.html" class="main-page-link">Go back to main page</a>
-        </form>
+    <!-- CONTENT OF THE PAGE -->
+    <div class="td-container">
+        <h1 class="first-heading">Our Most Popular Bus Stops</h1>
+        <div class="td-grid">
+            <ul>
+                <li><a href="#">New York City</a></li>
+                <li><a href="#">Chicago, Illinois</a></li>
+                <li><a href="#">Charleston, South Carolina</a></li>
+                <li><a href="#">Las Vegas, Nevada</a></li>
+                <li><a href="#">Seattle, Washington</a></li>
+                <li><a href="#">San Francisco, California</a></li>
+                <li><a href="#">Washington, D.C.</a></li>
+                <li><a href="#">New Orleans, Louisiana</a></li>
+                <li><a href="#">Palm Springs, California</a></li>
+                <li><a href="#">San Diego, California</a></li>
+                <li><a href="#">St. Louis, Missouri</a></li>
+                <li><a href="#">Sedona, Arizona</a></li>
+                <li> <a href="#">Honolulu, Hawaii</a></li>
+                <li><a href="#">Miami Beach</a></li>
+                <li><a href="#">Branson, Missouri</a></li>
+                <li><a href="#">Boston, Massachusetts</a></li>
+                <li><a href="#">Savannah, Georgia</a></li>
+                <li><a href="#">Orlando, Florida</a></li>
+                <li><a href="#">Portland, Oregon</a></li>
+                <li><a href="#">Lahaina, Hawaii</a></li>
+                <li><a href="#">Saint Augustine, Florida</a></li>
+                <li><a href="#">Nashville, Tennessee</a></li>
+                <li><a href="#">Los Angeles, California</a></li>
+                <li><a href="#">San Antonio, Texas</a></li>
+            </ul>
+        </div>
     </div>
 
+
+
+
+    <!-- FOOTER -->
     <div class="footer">
         <div class="footer-container">
             <div class="footer-section">
@@ -100,6 +94,5 @@
             <h1>Apex Programmers&copy</h1>
         </div>
     </div>
-    <script src="#"></script>
 </body>
 </html>

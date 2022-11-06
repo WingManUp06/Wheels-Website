@@ -87,37 +87,59 @@ body {
     text-decoration: underline;
 }
 
-/* CONTENT OF PAGE GOES HERE */
+/* MAIN WEBPAGE CONTENT */
 
-.main-wrapper {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.main-wrapper .deal {
-    margin: 20px 0;
-    background-color: #bab8b8;
+.td-container {
+    background-color: grey;
+    margin: 30px 20vw;
+    padding-bottom: 8px;
     border-style: solid;
-    border-width: 3px;
+    border-width: 10px;
+    border-color: #bab8b8;
     border-radius: 20px;
-    border-color: white;
+    box-shadow: 0px 0px 25px black;
+}
+
+.first-heading {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 7px 0;
     
-    border-style: white;
-    box-shadow: 0px 0px 7px grey;
 }
 
-.main-wrapper .deal h1 {
-    font-size: 19px;
+.td {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
 }
 
-.main-wrapper .deal h1, p {
-    padding-left: 20px;
+.td-grid {
+    display: flex;
+    justify-content: center;
 
 }
 
 
-/* Footer */
+.td-grid ul li{
+    list-style: none;
+    padding: 7px 0;
+}
 
+
+.td-grid ul li a {
+    font-size: 25px;
+    color: white;
+}
+
+.td-grid ul li a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
 .footer {
     background-color: grey;
 
