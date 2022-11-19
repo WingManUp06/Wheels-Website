@@ -34,6 +34,12 @@ body {
     color: white;
 }
 
+.biz-name a{
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 3px black;
+}
+
 .head1 div a {
     color: white;
 }
@@ -100,10 +106,10 @@ body {
     border-style: solid;
     border-width: 3px;
     border-radius: 20px;
-    border-color: white;
+    border-color: #bab8b8;
     
     border-style: white;
-    box-shadow: 0px 0px 7px grey;
+    box-shadow: 0px 0px 4px grey;
 }
 
 .main-wrapper .deal h1 {
@@ -176,4 +182,225 @@ body {
     font-weight: lighter;
     padding: 5px 0;
     
+}
+
+/* @MEDIA QUERIES */
+
+@media all and ( max-width:1280px ){
+    /* CHANGES THE MAX WIDTH FROM 1080PX TO 980PX WHEN MAX WIDTH IS 1300PX */
+    .wrapper {
+        max-width: 980px;
+    }
+
+    .footer-container {
+        width: 980px;
+    }
+}
+
+@media all and ( max-width:1180px ){
+    .wrapper {
+        max-width: 880px;
+    }
+
+    .footer-container {
+        width: 880px;
+    }
+
+}
+
+@media all and ( max-width:1080px ){
+    .wrapper {
+        max-width: 768px;
+    }
+
+    .footer-container {
+        width: 768px;
+    }
+
+    .ttw h1 {
+        font-size: 35px;
+    }
+
+    .banner h1 {
+        color: white;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 45px;
+        text-shadow: 5px 5px 10px #000;
+    }
+    
+    .banner p{
+        color: white;
+        position: absolute;
+        top: 63%;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        text-shadow: 5px 5px 10px #000;
+        font-weight: bold;
+    }
+    
+}
+
+@media all and ( max-width:770px ){
+    *{
+        font-size: 12px;
+    } 
+
+    .footer-section h1 {
+        font-size: 20px;
+    }
+
+    .td {
+        font-size: 22px;
+    }
+
+    .side-link div a {
+        color: white;
+        font-size: 14px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 20px;
+        padding-top: 10px;
+    }
+    
+}
+
+@media all and ( max-width:740px ){
+    .footer-container {
+        width: 100%;
+        padding-bottom: 8px;
+    }
+    
+    .footer-section h1 {
+        padding: 8px 0;
+    }
+
+    .footer-section ul li{
+        padding: 2px 0;
+        
+    }
+
+    .side-link div a {
+        color: white;
+        font-size: 14px;
+    }
+}
+
+@media all and ( max-width:600px ){
+    .head1 {
+        grid-template-columns: repeat(7, 1fr);
+    }
+    
+    
+    .head1 div:nth-child(1){
+        grid-column: 4;
+
+    }
+    
+    .head1 div:nth-child(2){
+        grid-column: 6;
+
+    }
+    
+    .head1 div:nth-child(3){
+        grid-column: 7;
+    }
+
+    .side-link div a {
+        color: white;
+        font-size: 16px;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+@media all and ( max-width:500px ){
+    .banner h1 {
+        color: white;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 5px 5px 10px #000;
+    }
+    
+    .banner p{
+        color: white;
+        position: absolute;
+        top: 66%;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        text-shadow: 5px 5px 10px #000;
+        font-weight: bold;
+    }
+
+    .side-link div a {
+        color: white;
+        font-size: 14px;
+    }
+
+}
+
+@media all and ( max-width:500px ){
+    .head1 {
+        background-color: grey;
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        border-bottom: white 2px;
+    }
+    
+    .head1 div {
+        color: white;
+    }
+    
+    .side-link div a {
+        color: white;
+    }
+    
+    .head1 div a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .head1 div:nth-child(1){
+        grid-column: 2;
+        justify-self: center;
+        align-self: right;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .head1 div:nth-child(2){
+        grid-column: 4;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .head1 div:nth-child(3){
+        grid-column: 5;
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+@media all and ( max-width:400px ){
+    .banner h1 {
+        font-size: 35px;
+    }
+    .banner p {
+        font-size: 15px;
+    }
+
 }

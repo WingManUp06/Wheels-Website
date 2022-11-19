@@ -29,9 +29,12 @@ body {
     grid-template-columns: repeat(11, 1fr);
     border-bottom: white 2px;
 }
+/* new Code to change on all websites */
 
-.head1 div {
+.biz-name a {
     color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 3px black;
 }
 
 .head1 div a {
@@ -273,6 +276,7 @@ body {
 
 
 /* FIX BELOW */
+/* MEDIA QUERIES */
 
 @media all and ( max-width:1280px ){
     /* CHANGES THE MAX WIDTH FROM 1080PX TO 980PX WHEN MAX WIDTH IS 1300PX */
@@ -345,7 +349,7 @@ body {
         font-size: 22px;
     }
 
-    .head1 div a {
+    .side-link div a {
         color: white;
         font-size: 14px;
     }
@@ -375,7 +379,7 @@ body {
         
     }
 
-    .head1 div a {
+    .side-link div a {
         color: white;
         font-size: 14px;
     }
@@ -401,7 +405,7 @@ body {
         grid-column: 7;
     }
 
-    .head1 div a {
+    .side-link div a {
         color: white;
         font-size: 16px;
     }
@@ -433,7 +437,7 @@ body {
         font-weight: bold;
     }
 
-    .head1 div a {
+    .side-link div a {
         color: white;
         font-size: 14px;
     }
@@ -461,7 +465,7 @@ body {
         color: white;
     }
     
-    .head1 div a {
+    .side-link div a {
         color: white;
     }
     
@@ -489,4 +493,14 @@ body {
         justify-self: center;
         align-self: center;
     }
+}
+
+@media all and ( max-width:400px ){
+    .banner h1 {
+        font-size: 35px;
+    }
+    .banner p {
+        font-size: 15px;
+    }
+
 }
